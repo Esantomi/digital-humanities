@@ -3,7 +3,7 @@
 
 ## Reference
 
-## Open data portal
+### Open data portal
 - [국립국어원 : 모두의 말뭉치](https://corpus.korean.go.kr/)
 - [AI Hub : 개방 데이터](https://aihub.or.kr/)
 
