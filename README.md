@@ -3,6 +3,10 @@
 
 ## Reference
 
+## Open data portal
+- [국립국어원 : 모두의 말뭉치](https://corpus.korean.go.kr/)
+- [AI Hub : 개방 데이터](https://aihub.or.kr/)
+
 ### Web site
 - [AKS 인문정보학 위키](http://dh.aks.ac.kr/Edu/wiki/index.php/%EB%8C%80%EB%AC%B8)
 - [바로바로의 중얼중얼](https://www.ddokbaro.com/)
