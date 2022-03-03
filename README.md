@@ -1,9 +1,14 @@
 # digital-humanities
-디지털 인문학(digital humanities)
+디지털 인문학(digital humanities) 공부 정리
 
-### Source code for reference
+## Papers
+
+### ipynb
 - 김바로, 『딥러닝으로 불경 읽기 - Word2Vec으로 CBETA 불경 데이터 읽기』, 2019
 - 김바로, 『우리는 서발턴의 목소리를 들을 준비가 되었는가  텍스트 마이닝을 통한 영화 〈82년생 김지영〉 리뷰 분석』, 2020
+
+## summaries
+- C. Bassett et al. "Critical Digital Humanities and Machine-Learning" DH (2017) 
 
 ## Reference
 
