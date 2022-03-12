@@ -27,6 +27,7 @@
 - [성균관대 디지털인문학](https://skku.libguides.com/dh)
 - [차세대 지능형 시맨틱 웹 & 온톨로지](https://www.itfind.or.kr/WZIN/jugidong/1265/126503.htm)
 - [THE DIGITAL HUMANITIES INSTITUTE | SHEFFIELD](https://www.dhi.ac.uk/)
+- [Machine Vision & Learning research group at the LMU of Munich : Computer Vision in the Digital Humanities](https://ommer-lab.com/research/computer-vision-in-the-digital-humanities/)
 ### Github
 - [AwesomeKorean_Data : 한국어 데이터 세트 링크](https://github.com/songys/AwesomeKorean_Data)
 - [Digital Humanities Toolkit](https://github.com/pacian/Digital-Humanities-Toolkit)
