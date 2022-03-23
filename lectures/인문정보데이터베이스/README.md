@@ -275,14 +275,15 @@ notepad++ : 가볍고 실습하기 좋은 프로그램이므로 권장
     - 관계를 맺고 있는 릴레이션의 기본 키에 해당하는 애트리뷰트
     - 외래 키로 지정된 애트리뷰트는 참조된 릴레이션의 기본 키에 없는 값을 가질 수 없다.
 - MSSQL 실습은 `03_03_MSSQL_데이터 import+export.pptx` 참고
-  - **SSMS(SQL Sert Management Studio)**
+  - **SSMS(SQL Server Management Studio)**
     - [다운로드 링크](https://docs.microsoft.com/ko-kr/sql/ssms/download-sql-server-management-studio-ssms)
-  - access를 적극 사용할 것
+  - 자세한 것은 `03_03_MSSQL_데이터 import+export` 파일 참고
+    - 참고로 access를 적극 사용할 것
 ### 과제
-  - 본인 쿼리문 교수님께 메일로 전달 드리기
-    ```
-    use s_haein
-    
-    select * from 입력샘플
-    select * from 엑셀입력
-    ```
+- [X] 본인 쿼리문 교수님께 메일로 전달 드리기
+  ```
+  use s_haein
+  
+  select * from 입력샘플
+  select * from 엑셀입력
+  ```
