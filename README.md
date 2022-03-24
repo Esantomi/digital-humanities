@@ -7,6 +7,9 @@
 - [인문지식처리와통계](https://github.com/Esantomi/digital-humanities/tree/main/lectures/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84)
   - `01_Colab+알고리즘.ipynb`
   - `02_언어분석_맛보기.ipynb`
+  - `03_01_언어분석_한국어_기본.ipynb`
+  - `03_02_언어분석_한국어_심화.ipynb`
+  - `03_03_언어분석_중국어_심화.ipynb`
 - [한국문학과문화론](https://github.com/Esantomi/digital-humanities/tree/main/lectures/%ED%95%9C%EA%B5%AD%EB%AC%B8%ED%95%99%EA%B3%BC%EB%AC%B8%ED%99%94%EB%A1%A0)
 - [한문문법I](https://github.com/Esantomi/digital-humanities/tree/main/lectures/%ED%95%9C%EB%AC%B8%EB%AC%B8%EB%B2%95I)
 
