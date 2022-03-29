@@ -1,9 +1,26 @@
 # 인문정보데이터베이스
 ### 목차
 - [1주차. 인문데이터개론](#1주차-인문데이터개론)
+  - [Data](#Data)
+  - [Database](#Database)
+  - [XML](#XML)
+  - [RDF & LOD](#RDF---LOD)
 - [2주차. 정규 표현식](#2주차-정규-표현식)
+  - [정규 표현식](#정규-표현식)
+  - [정규 표현식 실습](#정규-표현식-실습)
 - [3주차. 공공 데이터](#3주차-공공-데이터)
+  - [공공데이터법](#공공데이터법)
+  - [CCL](#CCL)
+  - [공공데이터포털](#공공데이터포털)
 - [3주차. RDB 개론](#3주차-RDB-개론)
+  - [데이터베이스](#데이터베이스)
+  - [DBMS](#DBMS)
+  - [스키마](#스키마)
+  - [키](#키)
+- [4주차. SQL](#4주차-SQL)
+  - [SQL 문법](#SQL-문법)
+  - [SQL 문제](#SQL-문제)
+  - [SQL 실습](#SQL-실습)
 
 ### 강의 계획서
 ![image](https://user-images.githubusercontent.com/61646760/157179820-242fb286-96eb-4e2d-86f8-81ef96c8b8ae.png)
@@ -99,7 +116,9 @@
 - **LOD(Linked Open Data)** : 시맨틱 데이터의 궁극
 
 ## 2주차. 정규 표현식
-notepad++ : 가볍고 실습하기 좋은 프로그램이므로 권장
+- 텍스트 에디터(text editor)
+  - **notepad++** : 가볍고 실습하기 좋은 프로그램이므로 권장
+### 정규 표현식
 - **정규 표현식(regular expression)**
   - 특정한 규칙을 가진 문자열의 집합을 표현하는 데 사용하는 형식 언어
   - 목록
@@ -127,8 +146,9 @@ notepad++ : 가볍고 실습하기 좋은 프로그램이므로 권장
       - `\1`은 `(^.*?\t.*?\t)`를 불러옴
       - `\2`는 `(.*?\t)`를 불러옴
   - [W3C regex](https://www.w3schools.com/python/python_regex.asp) 참고
+### 정규 표현식 실습
 <details>
-<summary>정규 표현식 연습</summary>
+<summary>정규 표현식 실습</summary>
   
   - 개행 문자 찾고 띄어쓰기 제거하기  
     ![image](https://user-images.githubusercontent.com/61646760/158291427-95b6c9df-51bd-4eec-a285-f3cc288e5069.png)
@@ -160,6 +180,7 @@ notepad++ : 가볍고 실습하기 좋은 프로그램이므로 권장
     - 정보의 능동적 공개, 사전 공표 확대
       - 정부 2.0의 경우, 정보의 청구 중심 공개
     - `예) 버스도착정보조회 서비스`
+### 공공데이터법
 - **공공데이터법**
   - **공공데이터의 제공 및 이용 활성화에 관한 법률 (약칭: 공공데이터법)**
     - [시행 2020. 12. 10.] [법률 제17344호, 2020. 6. 9., 타법개정]
@@ -179,11 +200,13 @@ notepad++ : 가볍고 실습하기 좋은 프로그램이므로 권장
     - 개인정보 보호법 개정안 : 추가정보 사용 없이는 특정 개인을 식별할 수 없도록 처리한 가명정보에 대해서는 통계작성, 과학적 연구, 공익적 기록보존의 목적으로 처리해 활용
     - 신용정보의 이용 및 보호에 관한 법률 개정안 : 가명처리한 개인신용정보를 통계작성, 과학적 연구, 공익적 기록보존 등의 목적으로 신용정보주체의 동의 없이 이용하거나 제공
     - 정보통신망 이용촉진 및 정보보호 등에 관한 법률 개정안 : 방송통신위원회 소관 개인정보 규제권한을 모두 ‘개인정보 보호법’으로 이관해 불필요한 중복 규제를 해소
+### CCL
 - **Creative Commons license(CCL)**
   - 크리에이티브 커먼즈가 만든 특정 조건에 따라 저작물 배포를 허용하는 저작권 라이선스 중 하나
   - 조합  
     ![image](https://user-images.githubusercontent.com/61646760/159385268-a5980e98-4e21-45ea-91f4-71ca5757128f.png)
     - **CC0** : 퍼블릭 도메인
+### 공공데이터포털
 - **공공데이터포털**
   - 1차사료 = 공공데이터 / 2차사료 = 웹서비스
     - Raw data보다 XML이 연구에 도움이 됨
@@ -195,21 +218,22 @@ notepad++ : 가볍고 실습하기 좋은 프로그램이므로 권장
       - 저작권법 제39조(보호기간의 원칙)에 따라서 **저작권은 저작자가 생존하는 동안과 사망한 후 70년간 존속**한다.
         - 공공기관이 제공하는 대다수의 서비스는 국비를 토대로 편찬되기에 **공공데이터로 공개할 수 있는 저작권 계약**이 되어 있는 경우가 많다.
         - 그러나 **2012년 공공데이터법이 제정되기 이전에는 공공데이터로서 제공 관련 사항이 명문화되어 있지 않아서 문제가 되는 경우**도 분명 존재하며, 2012년 이후라고 하더라도 다양한 사정에 의해서 저작권을 온전히 확보하지 못하는 경우도 생긴다.
-  - 필요한 데이터가 있으면, 먼저 [공공데이터포털](https://www.data.go.kr/)에 검색해 볼 것
-    - 혹은 교수님께 여쭙기
-  - 참고 사이트
-    - [AI Hub](https://aihub.or.kr/)
-      - 다양한 개방 데이터
-    - [모두의 말뭉치](https://corpus.korean.go.kr/)
-      - 언어 쪽 특화
-    - [데이터 바우처](https://kdata.or.kr/datavoucher/index.do)
-      - 혼자 데이터 작업하기 어려울 경우 알아볼 것
-    - [공공데이터분쟁조정위원회](https://www.odmc.or.kr/home/homeIndex.do?menuCode=mediation)
-      - 공공 데이터 분쟁 조정 기능
-      - 데이터 제공 거부 시 거부 사유가 타당한지 검증
-      - 신청은 조언을 구하고 신중히 할 것 (문헌 권력)
+- 필요한 데이터가 있으면, 먼저 [공공데이터포털](https://www.data.go.kr/)에 검색해 볼 것
+  - 혹은 교수님께 여쭙기
+- 참고 사이트
+  - [AI Hub](https://aihub.or.kr/)
+    - 다양한 개방 데이터
+  - [모두의 말뭉치](https://corpus.korean.go.kr/)
+    - 언어 쪽 특화
+  - [데이터 바우처](https://kdata.or.kr/datavoucher/index.do)
+    - 혼자 데이터 작업하기 어려울 경우 알아볼 것
+  - [공공데이터분쟁조정위원회](https://www.odmc.or.kr/home/homeIndex.do?menuCode=mediation)
+    - 공공 데이터 분쟁 조정 기능
+    - 데이터 제공 거부 시 거부 사유가 타당한지 검증
+    - 신청은 조언을 구하고 신중히 할 것 (문헌 권력)
 
 ## 3주차. RDB 개론
+### 데이터베이스
 - **데이터베이스(database)**
   - 다수의 응용 시스템들이 사용하기 위해 체계적으로 편성, 저장된 데이터의 집합
     - An organized collection of information records that can be accessed electronically.
@@ -220,6 +244,7 @@ notepad++ : 가볍고 실습하기 좋은 프로그램이므로 권장
       - 데이터의 물리적 & 논리적 독립성 유지
       - 데이터 중복의 최소화
     - 데이터 공유 / 보안
+### DBMS
 - **데이터베이스 관리 시스템(DBMS: Database Management System)**
   - 응용 프로그램과 데이터의 중재자로서 모든 응용 프로그램들이 데이터베이스에 접근하여 공동으로 활용할 수 있게끔 관리해 주는 소프트웨어
     - 편리하고 효율적인 데이터베이스 검색, 저장을 위한 환경 제공
@@ -230,26 +255,8 @@ notepad++ : 가볍고 실습하기 좋은 프로그램이므로 권장
     - 조작 기능(manipulation facility) : 데이터의 검색, 갱신, 삽입, 삭제 등의 데이터베이스 연산을 지원하기 위한 기능
     - 제어 기능(control facility) : 공용 목적으로 관리하는 데이터베이스의 내용을 항상 정확하게 유지할 수 있는 기능
 - **SQL(Structured Query Language)**
-  - 데이터베이스의 검색과 조작을 쉽고 빠르게 하기 위해 개발된 데이터베이스 언어
-    - 1970년대 초반 IBM사의 관계형 데이터베이스 질의어로 개발
-    - DBMS마다 상이한 형태의 질의어를 제공하는 데서 오는 사용자의 불편 해소 필요성 대두 ⇒ 데이터베이스 질의어 표준화 요구 발생
-      - 1986년 ANSI와 ISO가 공동으로 SQL의 표준화 작업을 진행(SQL-86)
-      - 관계형 DB를 위한 SQL2(1992년), 객체지향형 DB를 위한 SQL3(1999), XML 데이터를 처리하기 위한 SQL4(2003), 멀티미디어 정보를 위한 SQL/MM 등 표준화 작업이 계속 진행
-  - SQL의 구성
-    - **데이터 정의어(DDL : Data Definition Language)**
-      - 테이블 생성 기능(create table)
-      - 테이블 변경 기능(alter table)
-      - 테이블 삭제 기능(drop table)
-      - 뷰 생성 기능(create view)
-      - 뷰 삭제 기능(drop view)
-    - **데이터 조작어(DML : Data Manipulation Language)**
-      - 데이터 검색 기능(select)
-      - 데이터 삽입 기능(insert)
-      - 데이터 삭제 기능(delete)
-      - 데이터 수정 기능(update)
-  - SQL 문의 기본 구조 : **`select 표시 열 from 테이블 where 행 제약 조건 order by 기준 열`**
-    - `예) select 이름, 생년, 몰년 from 인명 where 생년 >1700 and 몰년 < 1900  order by 생년`
-      - ‘인명’ 테이블에서 1700년 이후에 태어나고 1900년 이전에 죽은 사람을 찾아 그들의 ‘이름’, ‘생년’, ‘몰년’을 ‘생년’ 순서대로 보여라.
+  - [4주차. SQL](#4주차-SQL)로 이동하기
+### 스키마
 - **스키마(schema)**
   - 데이터베이스의 논리적 정의
     - The logical definition of an entire database.
@@ -258,6 +265,7 @@ notepad++ : 가볍고 실습하기 좋은 프로그램이므로 권장
     - A pattern that represents the data's model defining the elements (or objects), their attributes (or properties), and the relationships between the different elements.
   - RDB의 스키마  
     ![image](https://user-images.githubusercontent.com/61646760/159392846-fb029011-5d05-4568-98bc-a2baf28327fd.png)
+### 키
 - **키(key)**
   - **후보 키(Candidate Key)**
     - 한 릴레이션의 특정 튜플을 유일하게 구별할 수 있는 애트리뷰트들의 집합
@@ -274,6 +282,7 @@ notepad++ : 가볍고 실습하기 좋은 프로그램이므로 권장
   - **외래 키(FK: Foreign Key)**
     - 관계를 맺고 있는 릴레이션의 기본 키에 해당하는 애트리뷰트
     - 외래 키로 지정된 애트리뷰트는 참조된 릴레이션의 기본 키에 없는 값을 가질 수 없다.
+### MSSQL 실습
 - MSSQL 실습은 `03_03_MSSQL_데이터 import+export.pptx` 참고
   - **SSMS(SQL Server Management Studio)**
     - [다운로드 링크](https://docs.microsoft.com/ko-kr/sql/ssms/download-sql-server-management-studio-ssms)
@@ -287,3 +296,157 @@ notepad++ : 가볍고 실습하기 좋은 프로그램이므로 권장
   select * from 입력샘플
   select * from 엑셀입력
   ```
+
+## 4주차. SQL
+- **SQL(Structured Query Language)**
+  - 데이터베이스의 검색과 조작을 쉽고 빠르게 하기 위해 개발된 데이터베이스 언어
+  - 1970년대 초반 IBM사의 관계형 데이터베이스 질의어로 개발
+    - 1973 `SQARE: Structured Queries as Relational Expressions`
+    - 1974 `SEQUEL: Structured English as Query Language`
+    - 1976 `SQL: Structured Query Language`
+  - DBMS마다 상이한 형태의 질의어를 제공하는 데서 오는 사용자의 불편 해소 필요성 대두 ⇒ 데이터베이스 질의어 표준화 요구 발생
+    - 1986년 ANSI 와 ISO가 공동으로 SQL의 표준화 작업을 진행(SQL-86)
+    - 관계형 DB를 위한 SQL2(1992년), 객체지향형 DB를 위한 SQL3(1999), XML 데이터를 처리하기 위한 SQL4(2003), 멀티미디어 정보를 위한 SQL/MM 등 표준화 작업이 계속 진행
+  - SQL의 구성
+    - **데이터 정의어(DDL : Data Definition Language)** : 스키마를 다루는 언어
+      - 테이블 생성 기능(create table)
+      - 테이블 변경 기능(alter table)
+      - 테이블 삭제 기능(drop table)
+      - 뷰 생성 기능(create view)
+      - 뷰 삭제 기능(drop view)
+    - **데이터 조작어(DML : Data Manipulation Language)** : 데이터를 다루는 언어
+      - 데이터 검색 기능(select)
+      - 데이터 삽입 기능(insert)
+      - 데이터 삭제 기능(delete)
+      - 데이터 수정 기능(update)
+  - SQL 문의 기본 구조 : **`select 표시 열 from 테이블 where 행 제약 조건 order by 기준 열`**
+    - `예) select 이름, 생년, 몰년 from 인명 where 생년 >1700 and 몰년 < 1900  order by 생년`
+      - ‘인명’ 테이블에서 1700년 이후에 태어나고 1900년 이전에 죽은 사람을 찾아 그들의 ‘이름’, ‘생년’, ‘몰년’을 ‘생년’ 순서대로 보여라.
+### SQL 문법
+- **`USE문`**
+  - Use 문의 기본 구조
+    ```
+    use [데이터베이스이름]
+    ```
+    - `예) Use 고서목록`
+- **`CREATE문`**
+  - Create 문의 기본 구조
+    ```
+    create table [테이블명]( 
+      [컬럼명] [데이터타입] [제약조건],
+      [컬럼명] [데이터타입] [제약조건],
+      [컬럼명] [데이터타입] [제약조건]
+      )
+    ```
+    - `예) create table 저자_01 ( 이름 nvarchar(50) NOT NULL ... )`
+  - Create 문의 응용 구조
+    ```
+    select * into [생성될_테이블명] from [소스_테이블명]
+    ```
+    - `예) select * into 저자_02 from 저자`
+- **`INSERT문`**
+  - Insert 문의 기본 구조
+    ```
+    1. insert into 테이블이름 values (데이터값1, 데이터값2, 데이터값3, ...)
+    2. insert into 테이블이름(필드이름1, 필드이름2, 필드이름3, ...) values (데이터값1, 데이터값2, 데이터값3, ...)
+    ```
+    - `insert into 저자 values ('이상질', '李尙質', 1597, 1635)`
+    - `insert into 저자(이름, 생년, 몰년) values ('이곡', 1298, 1351)` 
+      - 필드이름2인 `한자`를 누락하고 insert 실행 (일부 정보만 넣을 때 사용)
+- **`DELETE문`**
+  - Delete 문의 기본 구조
+    ```
+    delete from [테이블]
+    ```
+    - 해당 테이블의 전체 레코드 삭제
+- **`SELECT문`**
+  - Select 문의 기본 구조
+    ```
+    select [열] from [테이블] where [조건]
+    ```
+    - `예) select * from 서명`
+      - 전체 데이터 가져오기
+    - `예) select 서명.서명, 서명.한문서명 from 서명`
+      - 서명 테이블의 `서명` 컬럼, 서명 테이블의 `한문서명` 컬럼만 가져오기
+      - 표준 문법에 해당
+        - Tip : `select a.서명, a.한문서명 from 서명 as a`로도 사용 가능
+    - `예) select 서명, 한문서명 from 서명`
+      - 표준 문법은 아니나 편의상 사용 가능
+- 주석 처리
+  ```
+  --
+  ```
+  - `예) --MSSM에서는 이러면 주석 처리됨`
+- **`JOIN문`**
+  - Join 문의 기본 구조
+    ```
+    select [컬럼] from [테이블A], [테이블B] where [테이블A].[컬럼C] = [테이블B].[컬럼D]
+    ```
+    - `예) select * from 서명, 저자 where 서명.저자=저자.이름`
+      - 표준 문법이 아님
+      - 합집합을 찾은 다음 where 조건에 맞게 나머지를 배제하므로 느림
+  - Join 문의 응용 구조
+    ```
+    select [컬럼] from [테이블A] [Join방식] [테이블B] ON [테이블A].[컬럼C] = [테이블B].[컬럼D]
+    ```
+    - `예) select * from 서명 inner join 저자 on 서명.저자=저자.이름`
+      - 표준 문법에 해당
+      - 처음부터 교집합(inner join)을 찾으므로 빠름
+  - SQL join 방법  
+    ![image](https://user-images.githubusercontent.com/61646760/160519799-a74c7d83-13b4-44fe-90f5-81b9771327ed.png)
+  - Excel은 `vlookup` 함수로 join 기능 제공
+    - `VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])`
+      - 범위(table_array)의 첫 번째 열을 수직으로 내려가면서 키 값(lookup_value)를 찾은 다음, 같은 행에 있는 지정된 열(col_index_num)의 값을 반환
+    - 인수
+      - `lookup_value` : 범위에서 원하는 값을 찾기 위한 키 값
+      - `table_array` : 값을 찾을 범위
+      - `col_index_num` : 값을 찾을 범위에서 가져올 값이 있는 열의 위치
+      - `[range_lookup]` : 일치하는 키 값을 찾을 것인지 근사 값을 찾을 것인지 결정 (`TRUE`-근사값, `FALSE`-일치하는 값)
+- `order by`
+  ```
+  select 서명, 한문서명, 저자, 생년, 몰년, 간행년
+    from 서명, 저자
+    where 서명.저자=저자.이름
+    order by 서명.간행년 asc
+  ```
+  - defalut는 오름차순(`asc`)
+  - `desc`는 내림차순
+### SQL 문제
+- 문제 : 저자 한글이름과 생년과 몰년을 보고 싶다면? 예) 이곡, 1298, 1351
+  ```
+  select a.이름, a.생년, a.몰년 from 저자 as a
+  select 이름, 생년, 몰년 from 저자
+  ```
+- 문제 : 서명, 저자, 간행년을 보고 싶다면? 예) 가정집, 이곡, 1662
+  ```
+  select a.서명, a.저자, a.간행년 from 서명 as a
+  select 서명, 저자, 간행년 from 서명
+  ```
+- 문제 : 서명테이블의 간행년과 연도테이블의 서력을 조인하라. 
+  ```
+  select * from 서명
+  select * from 연도
+  --join 명령어를 올바르게 썼어도 매칭되는 데이터가 없다면 올바른 결과를 얻을 수 없다.
+  select * from 서명, 연도 where 서명.간행년 = 연도.서력
+  select * from 서명 inner join 연도 on 서명.간행년=연도.서력
+  ```
+### SQL 실습
+<details>
+<summary>SQL 실습</summary>
+  
+- `USE & CREATE`  
+  ![image](https://user-images.githubusercontent.com/61646760/160513485-2b076b16-d3f7-4484-906c-3be7ee0b7d5c.png)
+- `INSERT`  
+  ![image](https://user-images.githubusercontent.com/61646760/160515063-86384c9f-aed6-439e-826d-f26745606e1d.png)
+- 모두 바꾸기 : `ctrl + F`  
+  ![image](https://user-images.githubusercontent.com/61646760/160515315-cd409a4e-a761-4e46-a8c9-87125de8bd87.png)
+- `SELECT`  
+  ![image](https://user-images.githubusercontent.com/61646760/160516044-c5d7ce34-30c4-4494-821a-73a07519a349.png)
+- 주석 처리 : `ctrl + K`  
+  ![image](https://user-images.githubusercontent.com/61646760/160516940-916bcc06-a7b5-45bf-a834-dde051fa8023.png)
+- `JOIN`  
+  ![image](https://user-images.githubusercontent.com/61646760/160520210-e96366f4-ab31-403a-b126-7c18b9a1d589.png)
+- `ORDER BY`  
+  ![image](https://user-images.githubusercontent.com/61646760/160524544-10dec2c3-b455-4fad-89c3-b42dde4dfe55.png)
+  
+</details>
