@@ -16,7 +16,9 @@
 - [`04_N-Gram.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84/04_N-Gram.ipynb)
 - [`05_워드임베딩_Word2Vec.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84/05_%EC%9B%8C%EB%93%9C%EC%9E%84%EB%B2%A0%EB%94%A9_Word2Vec.ipynb)
 
-## 논문 관련
-### ipynb
-- 김바로, 『딥러닝으로 불경 읽기 - Word2Vec으로 CBETA 불경 데이터 읽기』, 2019
-- 김바로, 『우리는 서발턴의 목소리를 들을 준비가 되었는가  텍스트 마이닝을 통한 영화 〈82년생 김지영〉 리뷰 분석』, 2020
+## 참고용 코드
+- 김바로, 『딥러닝으로 불경 읽기 - Word2Vec으로 CBETA 불경 데이터 읽기』, 2019.
+  - [`배포_논문_딥러닝으로_불경_읽기_Word2Vec불경.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/참고용코드/배포_논문_딥러닝으로_불경_읽기_Word2Vec불경.ipynb)
+- 김바로, 『우리는 서발턴의 목소리를 들을 준비가 되었는가  텍스트 마이닝을 통한 영화 〈82년생 김지영〉 리뷰 분석』, 2020.
+  - [`스크래핑_영화리뷰_82년생_김지영_네이버영화.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/참고용코드/스크래핑_영화리뷰_82년생_김지영_네이버영화.ipynb)
+  - [`분석_Mecab+Word2Vec_리뷰_영화_82년생_김지영.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/참고용코드/분석_Mecab+Word2Vec_리뷰_영화_82년생_김지영.ipynb)
