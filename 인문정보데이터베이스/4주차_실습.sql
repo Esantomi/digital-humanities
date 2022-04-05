@@ -1,4 +1,5 @@
-﻿--use문
+﻿--4주차. SQL 실습
+--use문
 use s_haein
 
 
@@ -80,8 +81,9 @@ select 서명, 한문서명 from 서명
 select * from 서명
 select * from 저자
 -- 서명.저자와 저자.이름은 동일한 정보이므로 join 가능
-select * from 서명, 저자 where 서명.저자=저자.이름
-select * from 서명 inner join 저자 on 서명.저자=저자.이름
+select * from 서명, 저자 where 서명.저자=저자.이름         --slang
+select * from 서명 inner join 저자 on 서명.저자=저자.이름  --표준 문법
+
 
 --order by (오름차순 default)
 select 서명, 한문서명, 저자, 생년, 몰년, 간행년
@@ -91,18 +93,13 @@ select 서명, 한문서명, 저자, 생년, 몰년, 간행년
 select 서명, 한문서명, 저자, 생년, 몰년, 간행년
   from 서명, 저자
   where 서명.저자=저자.이름
-  order by 서명.간행년 asc --desc는 내림차순
+  order by 서명.간행년 asc  --desc는 내림차순
+
 
 --where [조건1] and [조건2]
 select 서명, 저자, 몰년, 왕조, 왕, 재위년
   from 서명, 저자, 연도
   where 서명.저자=저자.이름 and 저자.몰년=연도.서력
-
---출력 양식 편집
-select 서명+'('+한문서명+')' from 서명 --(열 이름 없음)
-select 서명+'('+한문서명+')' as 책이름 from 서명
-select 이름+ '(' + 한자 + ',' + cast(생년 as char(4))+'~'+cast(몰년 as char(4))+')' as 저자 from 저자
-select 이름+ '(' + 한자 + ',' + cast(생년 as char(4))+'~'+cast(몰년 as char(4))+')' as 저자 from 저자
 
 
 --퀴즈
