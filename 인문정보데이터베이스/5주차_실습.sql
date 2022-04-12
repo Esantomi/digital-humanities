@@ -116,6 +116,4 @@ select * from 연도
 
 
 --과제 : create view 구문 만들어서 제출
-create view 과제용 as
-	select 
-	from
+	--5주차_과제.sql 확인
