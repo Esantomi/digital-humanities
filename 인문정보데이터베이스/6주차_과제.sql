@@ -59,43 +59,44 @@ select * from 알바업무
 --신상입고 insert
 insert into 편의점재고
 select B.종류, B.품명, B.가격
-	from 편의점재고 as A
-		right join 알바업무 as B
-			on A.종류 = B.종류 and A.품명 = B.품명
-	where A.종류 is null
-		and B.상태 = '신상입고'
+from 편의점재고 as A
+right join 알바업무 as B
+	on A.종류 = B.종류 and A.품명 = B.품명
+where A.종류 is null
+	and B.상태 = '신상입고'
 
 --유통기한 초과 delete
 delete 편의점재고
+from 편의점재고 as A
+inner join (
+	select B.종류, B.품명, B.가격
 	from 편의점재고 as A
-		inner join (
-			select B.종류, B.품명, B.가격
-				from 편의점재고 as A
-					right join 알바업무 as B
-						on A.종류 = B.종류
-							and A.품명 = B.품명
-				where A.종류 IS NOT NULL
-					and B.상태 = '유통기한'
-		) B
-			on A.종류 = B.종류
-				and A.품명 = B.품명
-				and A.가격 = B.가격
+	right join 알바업무 as B
+		on A.종류 = B.종류
+			and A.품명 = B.품명
+	where A.종류 IS NOT NULL
+		and B.상태 = '유통기한'
+) B
+	on A.종류 = B.종류
+		and A.품명 = B.품명
+		and A.가격 = B.가격
 
 --물건손상 [재입고] update
 update 편의점재고
-	set 품명 = '[재입고]' + A.품명
+set 품명 = '[재입고]' + A.품명
+from 편의점재고 as A
+inner join ( 
+	select B.종류, B.품명, B.가격
 	from 편의점재고 as A
-		inner join ( 
-			select B.종류, B.품명, B.가격
-				from 편의점재고 as A
-					right join 알바업무 as B
-						on A.종류 = B.종류 and A.품명 = B.품명
-				where A.종류 is not null
-					and B.상태 = '물건손상' 
-		) B
-			on A.종류 = B.종류
-				and A.품명 = B.품명
-				and A.가격 = B.가격
+	right join 알바업무 as B
+		on A.종류 = B.종류
+			and A.품명 = B.품명
+	where A.종류 is not null
+		and B.상태 = '물건손상' 
+) B
+	on A.종류 = B.종류
+		and A.품명 = B.품명
+		and A.가격 = B.가격
 
 
 --2. 수정된 편의점재고를 바탕으로 새 테이블을 만들되,
@@ -103,17 +104,17 @@ update 편의점재고
 	--아래 조건에 맞는 '가성비' 열을 추가하시오.
 
 select 품명 + '(' + convert(varchar, 가격) + '원)' as 품명_가격,
-		(case
-			when 종류 = '음료' and 가격 >= 1000 then '비싼 음료'
-			when 종류 = '음료' and 가격 < 1000 then '가성비 음료'
-			when 종류 = '라면' and 가격 >= 1500 then '비싼 라면'
-			when 종류 = '라면' and 가격 < 1500 then '가성비 라면'
-			when 종류 = '과자' and 가격 < 2000 then '가성비 과자'
-			when 종류 = '과자' and 가격 >= 2000 then '비싼 과자'
-			else '정가'
-		end) as 가성비
-	into 편의점재고_가성비
-	from 편의점재고
+	(case
+		when 종류 = '음료' and 가격 >= 1000 then '비싼 음료'
+		when 종류 = '음료' and 가격 < 1000 then '가성비 음료'
+		when 종류 = '라면' and 가격 >= 1500 then '비싼 라면'
+		when 종류 = '라면' and 가격 < 1500 then '가성비 라면'
+		when 종류 = '과자' and 가격 < 2000 then '가성비 과자'
+		when 종류 = '과자' and 가격 >= 2000 then '비싼 과자'
+		else '정가'
+	end) as 가성비
+into 편의점재고_가성비
+from 편의점재고
 
 --편의점재고_가성비 테이블 확인용
 select * from 편의점재고_가성비
