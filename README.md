@@ -15,6 +15,8 @@
 - [`03_03_언어분석_중국어_심화.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84/03_03_%EC%96%B8%EC%96%B4%EB%B6%84%EC%84%9D_%EC%A4%91%EA%B5%AD%EC%96%B4_%EC%8B%AC%ED%99%94.ipynb)
 - [`04_N-Gram.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84/04_N-Gram.ipynb)
 - [`05_워드임베딩_Word2Vec.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84/05_%EC%9B%8C%EB%93%9C%EC%9E%84%EB%B2%A0%EB%94%A9_Word2Vec.ipynb)
+- [`06_딥러닝_언어_분류_with_LSTM.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84/06_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%96%B8%EC%96%B4_%EB%B6%84%EB%A5%98_with_LSTM.ipynb)
+- [`07_딥러닝_언어_분류_with_BERT.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84/07_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%96%B8%EC%96%B4_%EB%B6%84%EB%A5%98_with_BERT.ipynb)
 
 ## 참고용 코드
 - 김바로, 『딥러닝으로 불경 읽기 - Word2Vec으로 CBETA 불경 데이터 읽기』, 2019.
