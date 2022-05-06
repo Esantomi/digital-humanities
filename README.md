@@ -6,7 +6,9 @@
 
 ## 강의 실습
 ### 인문정보데이터베이스
-- [SQL 기초](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A0%95%EB%B3%B4%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/4%EC%A3%BC%EC%B0%A8_%EC%8B%A4%EC%8A%B5.sql)
+- [SQL 실습1](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A0%95%EB%B3%B4%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/4%EC%A3%BC%EC%B0%A8_%EC%8B%A4%EC%8A%B5.sql)
+- [SQL 실습2](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A0%95%EB%B3%B4%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/5%EC%A3%BC%EC%B0%A8_%EC%8B%A4%EC%8A%B5.sql)
+- [SQL 실습3](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A0%95%EB%B3%B4%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/6%EC%A3%BC%EC%B0%A8_%EC%8B%A4%EC%8A%B5.sql)
 ### 인문지식처리와통계
 - [`01_Colab+알고리즘.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84/01_Colab%2B%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.ipynb)
 - [`02_언어분석_맛보기.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84/02_%EC%96%B8%EC%96%B4%EB%B6%84%EC%84%9D_%EB%A7%9B%EB%B3%B4%EA%B8%B0.ipynb)
