@@ -21,7 +21,12 @@
 - [`06_딥러닝_언어_분류_with_LSTM.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84/06_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%96%B8%EC%96%B4_%EB%B6%84%EB%A5%98_with_LSTM.ipynb)
 - [`07_딥러닝_언어_분류_with_BERT.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84/07_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%96%B8%EC%96%B4_%EB%B6%84%EB%A5%98_with_BERT.ipynb)
 #### 형태소 분석
+- [`형태소분석_한국어_심화_MECAB.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/인문지식처리와통계/형태소분석/형태소분석_한국어_심화_MECAB.ipynb)
+- [`형태소분석_한국어_심화_OKT.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/인문지식처리와통계/형태소분석/형태소분석_한국어_심화_OKT.ipynb)
+- [`형태소분석_한국어_심화_kiwi.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/인문지식처리와통계/형태소분석/형태소분석_한국어_심화_kiwi.ipynb)
 #### 워드 임베딩
+- [`워드임베딩_Word2Vec_한국어_mecab.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/인문지식처리와통계/워드임베딩/워드임베딩_Word2Vec_한국어_mecab.ipynb)
+- [`워드임베딩_Word2Vec_한국어_OKT.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/인문지식처리와통계/워드임베딩/워드임베딩_Word2Vec_한국어_OKT.ipynb)
 
 ## 참고용 코드
 - 김바로, 『딥러닝으로 불경 읽기 - Word2Vec으로 CBETA 불경 데이터 읽기』, 2019.
