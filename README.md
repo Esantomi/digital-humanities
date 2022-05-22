@@ -6,9 +6,10 @@
 
 ## 강의 실습
 ### 인문정보데이터베이스
-- [SQL 실습1](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A0%95%EB%B3%B4%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/4%EC%A3%BC%EC%B0%A8_%EC%8B%A4%EC%8A%B5.sql)
-- [SQL 실습2](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A0%95%EB%B3%B4%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/5%EC%A3%BC%EC%B0%A8_%EC%8B%A4%EC%8A%B5.sql)
-- [SQL 실습3](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A0%95%EB%B3%B4%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/6%EC%A3%BC%EC%B0%A8_%EC%8B%A4%EC%8A%B5.sql)
+- [`4주차_실습.sql`](https://github.com/Esantomi/digital-humanities/blob/main/인문정보데이터베이스/4주차_실습.sql)
+- [`5주차_실습.sql`](https://github.com/Esantomi/digital-humanities/blob/main/인문정보데이터베이스/5주차_실습.sql)
+- [`6주차_실습.sql`](https://github.com/Esantomi/digital-humanities/blob/main/인문정보데이터베이스/6주차_실습.sql)
+- [`9주차_실습_drama.owl`](https://github.com/Esantomi/digital-humanities/blob/main/인문정보데이터베이스/9주차_실습_drama.owl)
 ### 인문지식처리와통계
 #### 학습용
 - [`01_Colab+알고리즘.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/%EC%9D%B8%EB%AC%B8%EC%A7%80%EC%8B%9D%EC%B2%98%EB%A6%AC%EC%99%80%ED%86%B5%EA%B3%84/01_Colab%2B%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.ipynb)
