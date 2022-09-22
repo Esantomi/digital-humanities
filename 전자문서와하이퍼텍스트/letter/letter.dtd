@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT 편지 (수신, 본문, 날짜, 발신)>
+<!ELEMENT 수신 (#PCDATA)>
+<!ELEMENT 본문 (#PCDATA)>
+<!ELEMENT 날짜 (#PCDATA)>
+<!ELEMENT 발신 (#PCDATA)>

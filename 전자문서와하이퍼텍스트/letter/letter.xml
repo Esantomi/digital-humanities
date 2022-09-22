@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="letter.xsl"?>
+
+<편지 xmlns="letter.xsd">
+	<수신>영이에게</수신>
+	<본문>생일 축하해!</본문>
+	<날짜>2019. 4. 25</날짜>
+	<발신>철수</발신>
+</편지>

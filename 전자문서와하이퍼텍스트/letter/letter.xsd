@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="letter.xsd"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="편지">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="수신"/>
+        <xs:element ref="본문"/>
+        <xs:element ref="날짜"/>
+        <xs:element ref="발신"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="수신" type="xs:string"/>
+  <xs:element name="본문" type="xs:string"/>
+  <xs:element name="날짜" type="xs:string"/>
+  <xs:element name="발신" type="xs:string"/>
+</xs:schema>
