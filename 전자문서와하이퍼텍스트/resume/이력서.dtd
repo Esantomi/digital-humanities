@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--DTD written by Hyeon Kim 2008.5.8-->
+
+<!ELEMENT 이력서 (기본사항, 학력사항, 경력사항, 학회활동, 주요논문)>
+<!ELEMENT 기본사항 (이름, 한자이름, 생년월일, 주소, 전화, 휴대전화, e-mail, 사진)>
+<!ELEMENT 학력사항 (학력+)>
+<!ELEMENT 경력사항 (경력+)>
+<!ELEMENT 학회활동 (활동+)>
+<!ELEMENT 주요논문 (논저+)>
+
+<!ELEMENT 학력 (기간, 내용)>
+<!ELEMENT 경력 (기간, 내용)>
+<!ELEMENT 학회 (기간, 내용)>
+<!ELEMENT 논저 (제목, 학술지, 간행일, 간행처)>
+
+<!ELEMENT 이름 (#PCDATA)>
+<!ELEMENT 한자이름 (#PCDATA)>
+<!ELEMENT 생년월일 (#PCDATA)>
+<!ELEMENT 주소 (#PCDATA)>
+<!ELEMENT 전화 (#PCDATA)>
+<!ELEMENT 휴대전화 (#PCDATA)>
+<!ELEMENT e-mail (#PCDATA)>
+<!ELEMENT 사진 EMPTY>
+	<!ATTLIST 사진 파일 CDATA #REQUIRED>
+
+<!ELEMENT 기간 (#PCDATA)>
+<!ELEMENT 내용 (#PCDATA|기관명)*>
+<!ELEMENT 기관명 (#PCDATA)>
+	<!ATTLIST 기관명 홈페이지 CDATA #IMPLIED>
+
+<!ELEMENT 제목 (#PCDATA)>
+	<!ATTLIST 제목 원문 CDATA #IMPLIED>
+<!ELEMENT 학술지 (#PCDATA)>
+<!ELEMENT 간행일 (#PCDATA)>
+<!ELEMENT 간행처 (#PCDATA)>
