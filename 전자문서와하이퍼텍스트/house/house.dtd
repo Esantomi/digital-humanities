@@ -1,0 +1,40 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT 항목 (항목명,메타데이터,본문)>
+<!ATTLIST 항목
+  xmlns CDATA #FIXED ''
+  ID CDATA #REQUIRED>
+
+<!ELEMENT 항목명 (#PCDATA)>
+<!ATTLIST 항목명
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT 메타데이터 (분야,유형)>
+<!ATTLIST 메타데이터
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT 본문 (#PCDATA|사진|인명|지명)*>
+<!ATTLIST 본문
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT 분야 (#PCDATA)>
+<!ATTLIST 분야
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT 유형 (#PCDATA)>
+<!ATTLIST 유형
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT 사진 (#PCDATA)>
+<!ATTLIST 사진
+  xmlns CDATA #FIXED ''
+  url NMTOKEN #REQUIRED>
+
+<!ELEMENT 인명 (#PCDATA)>
+<!ATTLIST 인명
+  xmlns CDATA #FIXED ''
+  유형 NMTOKEN #IMPLIED>
+
+<!ELEMENT 지명 (#PCDATA)>
+<!ATTLIST 지명
+  xmlns CDATA #FIXED ''>
