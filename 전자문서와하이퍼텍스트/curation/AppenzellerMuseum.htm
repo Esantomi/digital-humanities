@@ -1,0 +1,279 @@
+﻿<!--Simple Ontology Visualization, Center for DH at AKS-->
+<html>
+<head>
+	<title>Simple Ontology Visualization</title>
+	<meta charset='UTF-8'/>
+	<meta property='og:title' content='Simple Ontology Visualization'/>
+	<meta property='og:image' content='http://dh.aks.ac.kr/Graph/vis/img/makeGraph.jpg'/>
+	<meta name='description' content='vis.js Network API Script'/>
+	<meta name='author' content='Center for Digital Humanities at AKS'/>
+	<script type='text/javascript' src='http://dh.aks.ac.kr/Graph/vis/dist/vis.js'></script>
+	<link href='http://dh.aks.ac.kr/Graph/vis/dist/vis.css' rel='stylesheet' type='text/css' />
+	<link href='http://dh.aks.ac.kr/Graph/vis/dist/vis-network.min.css' rel='stylesheet' type='text/css'/>
+	<style type='text/css'>
+		#mynetwork {
+			border: 1px solid lightgray;
+			width:100%;
+			height: 90%;
+		}
+	</style>
+
+	<script type='text/javascript'>
+	
+	var nodesArray = [], edgesArray = [];
+	var network = null;
+
+	function destroy() {
+		if (network !== null) {
+			network.destroy();
+			network = null;
+			nodesArray = [];
+			edgesArray = [];		
+		} 
+	}	
+
+	function draw() {
+
+		destroy();
+
+		nodesArray.push({
+			id: 'P0001',
+			label: '아펜젤러 목사',
+			title: '<u>아펜젤러_목사</u>',
+			shape: 'image',
+			image: './images/VP0001a.jpg',
+			url: './data/P0001.xml'
+		});
+
+		nodesArray.push({
+			id: 'P0011',
+			label: '최병헌 목사',
+			title: '<u>최병헌_목사</u>',
+			shape: 'image',
+			image: './images/VP0011.jpg',
+			url: './data/P0011.xml'
+		});
+
+		nodesArray.push({
+			id: 'H0002',
+			label: '경세종(警世鐘)',
+			title: '<u>경세종(警世鐘)</u>',
+			shape: 'image',
+			image: './images/VH0002.jpg',
+			url: './data/H0002.xml'
+		});
+
+		nodesArray.push({
+			id: 'H0006',
+			label: '휴대용 성찬기(聖餐器)',
+			title: '<u>휴대용_성찬기(聖餐器)</u>',
+			shape: 'image',
+			image: './images/VH0006.jpg',
+			url: './data/H0006.xml'
+		});
+
+		nodesArray.push({
+			id: 'L0003',
+			label: '정동제일교회',
+			title: '<u>정동제일교회</u>',
+			shape: 'image',
+			image: './images/VL0003.jpg',
+			url: './data/L0003.xml'
+		});
+
+		nodesArray.push({
+			id: 'L0002',
+			label: '배제학당',
+			title: '<u>배제학당</u>',
+			shape: 'image',
+			image: './images/VL0002a.jpg',
+			url: './data/L0002.xml'
+		});
+
+		nodesArray.push({
+			id: 'D0001',
+			label: '대한그리스도인회보',
+			title: '<u>대한그리스도인회보</u>',
+			shape: 'image',
+			image: './images/VD0001.jpg',
+			url: './data/D0001.xml'
+		});
+
+		nodesArray.push({
+			id: 'L0001',
+			label: '양화진 묘원',
+			title: '<u>양화진_묘원</u>',
+			shape: 'image',
+			image: './images/yard.jpg',
+			url: 'http://digerati.aks.ac.kr/Pavilions/tour2012-11vr/index.htm'
+		});
+
+		edgesArray.push({
+			from: 'P0001',
+			to: 'D0001',
+			label: '~를_창간했다',
+			title: '',
+			arrows: 'to',
+		});
+
+		edgesArray.push({
+			from: 'P0001',
+			to: 'L0002',
+			label: '~를_세웠다',
+			title: '',
+			arrows: 'to',
+		});
+
+		edgesArray.push({
+			from: 'P0001',
+			to: 'L0003',
+			label: '~를_세웠다',
+			title: '',
+			arrows: 'to',
+		});
+
+		edgesArray.push({
+			from: 'P0011',
+			to: 'P0001',
+			label: '~를_이었다',
+			title: '',
+			arrows: 'to',
+		});
+
+		edgesArray.push({
+			from: 'P0011',
+			to: 'H0002',
+			label: '~를_제작했다',
+			title: '',
+			arrows: 'to',
+		});
+
+		edgesArray.push({
+			from: 'H0002',
+			to: 'P0001',
+			label: '~를_기념한다',
+			title: '',
+			arrows: 'to',
+		});
+
+		edgesArray.push({
+			from: 'H0002',
+			to: 'L0003',
+			label: '~에_있다',
+			title: '',
+			arrows: 'to',
+		});
+
+		edgesArray.push({
+			from: 'H0006',
+			to: 'L0003',
+			label: '~에_있다',
+			title: '',
+			arrows: 'to',
+		});
+
+		edgesArray.push({
+			from: 'P0001',
+			to: 'H0006',
+			label: '~를_사용했다',
+			title: '',
+			arrows: 'to',
+		});
+
+		edgesArray.push({
+			from: 'P0001',
+			to: 'L0001',
+			label: '~에_잠들다',
+			title: '',
+			arrows: 'to',
+		});
+
+		var nodes = new vis.DataSet(nodesArray);
+		var edges = new vis.DataSet(edgesArray);
+		
+		// create a network
+		var container = document.getElementById('mynetwork');
+		var data = { nodes: nodes, edges: edges };
+		
+		var options = {
+			nodes: { size: 30, margin: 5,
+				color: { background: 'white',
+					highlight: { border: 'gold', background: '#D2E5FF' },
+					hover: { border: 'gold', background: '#D2E5FF' },
+				},
+				font: { face: '함초롬바탕', color: 'black', size: 15 },
+				labelHighlightBold: true,
+				shadow: false
+			},
+
+			edges: { length: 300, width: 1,
+				color: { color: 'lightgray', highlight: 'grey', opacity: 1.0 },
+				font: { face: '맑은 고딕', align: 'bottom', size: 12, color: 'darkcyan', strokeWidth: 5, strokeColor: 'white' },
+				smooth: { enabled: true, type: 'dynamic', roundness: 0.5 }
+			},
+			layout: { randomSeed: 100,
+				hierarchical: { 
+					enabled: 
+						directionInput.value == 'UD' || directionInput.value == 'LR'
+							? true
+							: false,
+					direction: directionInput.value,
+					sortMethod: 'directed'
+				}
+			},
+
+			interaction: { navigationButtons: true },
+			physics: { stabilization: false }
+		};
+		
+		// initialize your network!
+		network = new vis.Network(container, data, options);
+		
+		// select a node to open a related web page.
+    	network.on('selectNode', function(params) {
+			var sel = params.nodes[0];
+			var rows = nodesArray.length;
+			for (var i = 0; i < rows; i++) {
+				if (sel==nodesArray[i].id) {
+					var destination=nodesArray[i].url;
+					if( !nodesArray[i].url || nodesArray[i].url=='')break;
+					else window.open(encodeURI(decodeURI(nodesArray[i].url)), '_self');
+				}
+			}
+		});
+	}
+    </script>
+</head>
+
+<body onload='draw();'>
+
+	<div id='mynetwork'></div>
+
+	<div  id='layout-selection' style='text-align:right;font-size:150%;'>
+		<input type='button' id='btn-Normal' value='⿴' />
+		<input type='button' id='btn-Vertical' value='⿳' />
+		<input type='button' id='btn-Horizontal' value='⿲' />
+		<input type='hidden' id='direction' value='Normal' />
+	</div>
+
+	<script language='JavaScript'>	
+		var directionInput = document.getElementById('direction');
+
+		var btnUD = document.getElementById('btn-Vertical');
+		btnUD.onclick = function () {
+			directionInput.value = 'UD';
+			draw();
+		};
+		var btnLR = document.getElementById('btn-Horizontal');
+		btnLR.onclick = function () {
+			directionInput.value = 'LR';
+			draw();
+		};
+		var btnNormal = document.getElementById('btn-Normal');
+		btnNormal.onclick = function () {
+			directionInput.value = 'Normal';
+			draw();
+		};
+	</script>
+</body>
+</html>

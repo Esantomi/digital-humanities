@@ -1,0 +1,44 @@
+﻿#Project
+h1 Henry_Gerhart_Appenzeller
+h2 1858.2.6-1902.6.11
+
+#Class 
+인물	green 	circle
+공간	blue	rect
+문헌	purple	rect
+유물	grey	rect
+
+
+#Relation 
+~를_창간했다 	
+~를_세웠다 		
+~를_이었다 		
+~를_제작했다 	
+~를_기념한다 	
+~에_있다 		
+~를_사용했다 	
+~에_잠들다 		
+
+#Nodes
+P0001 	인물	아펜젤러_목사 		./data/P0001.xml	./images/VP0001a.jpg	1
+P0011 	인물	최병헌_목사 		./data/P0011.xml	./images/VP0011.jpg	1
+H0002 	유물 	경세종(警世鐘) 		./data/H0002.xml	./images/VH0002.jpg	1
+H0006 	유물 	휴대용_성찬기(聖餐器)	./data/H0006.xml	./images/VH0006.jpg	1
+L0003 	공간 	정동제일교회 		./data/L0003.xml	./images/VL0003.jpg	1
+L0002 	공간 	배제학당 			./data/L0002.xml	./images/VL0002a.jpg	1
+D0001 	문헌 	대한그리스도인회보 	./data/D0001.xml	./images/VD0001.jpg	1
+L0001 	공간 	양화진_묘원 		http://digerati.aks.ac.kr/Pavilions/tour2012-11vr/index.htm	./images/yard.jpg	1
+
+#Links
+P0001 D0001 ~를_창간했다 
+P0001 L0002 ~를_세웠다 
+P0001 L0003 ~를_세웠다 
+P0011 P0001 ~를_이었다 
+P0011 H0002 ~를_제작했다 
+H0002 P0001 ~를_기념한다 
+H0002 L0003 ~에_있다 
+H0006 L0003 ~에_있다 
+P0001 H0006 ~를_사용했다 
+P0001 L0001 ~에_잠들다 
+
+#End
