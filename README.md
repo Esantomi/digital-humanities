@@ -29,7 +29,15 @@
 - [`워드임베딩_Word2Vec_한국어_mecab.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/인문지식처리와통계/워드임베딩/워드임베딩_Word2Vec_한국어_mecab.ipynb)
 - [`워드임베딩_Word2Vec_한국어_OKT.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/인문지식처리와통계/워드임베딩/워드임베딩_Word2Vec_한국어_OKT.ipynb)
 ### 멀티미디어콘텐츠
+- [`StableDiffusionUI_Voldemort_V1_1.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/멀티미디어콘텐츠/StableDiffusionUI_Voldemort_V1_1.ipynb)
 ### 전자문서와하이퍼텍스트
+- curation
+- house
+- letter
+- museum
+- resume
+- service-contract-sample
+- [`Xpath.sql`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/Xpath.sql)
 
 ## 참고용 코드
 - 김바로, 『딥러닝으로 불경 읽기 - Word2Vec으로 CBETA 불경 데이터 읽기』, 2019.
