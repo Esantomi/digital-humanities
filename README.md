@@ -33,11 +33,19 @@
 - [`StableDiffusionUI_Voldemort_V1_1.ipynb`](https://github.com/Esantomi/digital-humanities/blob/main/멀티미디어콘텐츠/StableDiffusionUI_Voldemort_V1_1.ipynb)
 ### 전자문서와하이퍼텍스트
 - curation
+  - [`AppenzellerMuseum.htm`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/curation/AppenzellerMuseum.htm)
 - house
+  - [`house.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/house/house.xml)
+  - [`house1.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/house/house1.xml)
+  - [`house2.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/house/house2.xml)
 - letter
+  - [`letter.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/letter/letter.xml)
 - museum
+  - [`museum.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/museum/museum.xml)
 - resume
+  - [`이력서.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/resume/이력서.xml)
 - service-contract-sample
+  - [`(sample)계약서.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/service-contract-sample/(sample)계약서.xml)
 - [`Xpath.sql`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/Xpath.sql)
 - [`XMLdb_practice1.sql`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/XMLdb_practice1.sql)
 
