@@ -55,6 +55,7 @@
 - [`XMLdb_practice1.sql`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/XMLdb_practice1.sql)
 ### 인문정보편찬연구II
 - [`NewDataUpload.sql`](https://github.com/Esantomi/digital-humanities/blob/main/인문정보편찬연구II/NewDataUpload.sql)
+- test
 
 ## 참고용 코드
 - 김바로, 『딥러닝으로 불경 읽기 - Word2Vec으로 CBETA 불경 데이터 읽기』, 2019.
