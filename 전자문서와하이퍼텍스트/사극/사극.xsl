@@ -59,13 +59,13 @@
 					<html:li><xsl:value-of select="."/>(<xsl:value-of select="@캐릭터"/> 役)</html:li>
 				</html:ul>
 			</xsl:for-each>
-			<html:li>관련정보 : 
+			<html:li>홈페이지 : 
 				<html:a>
 					<xsl:attribute name="href">
 						<xsl:value-of select="//@url"/>
 					</xsl:attribute>
 					<xsl:attribute name="target">_blank</xsl:attribute>
-					<xsl:value-of select="./관련정보"/>
+					<xsl:value-of select="./홈페이지"/>
 				</html:a>
 			</html:li>
 		</html:ul>
