@@ -48,9 +48,11 @@
   - [`(sample)계약서.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/service-contract-sample/(sample)계약서.xml)
 - 성남문화대전
   - [`성남문화대전.xml`](https://github.com/Esantomi/digital-humanities/tree/main/전자문서와하이퍼텍스트/성남문화대전/성남문화대전.xml)
+  - [`성남문화대전2.xml`](https://github.com/Esantomi/digital-humanities/tree/main/전자문서와하이퍼텍스트/성남문화대전/성남문화대전2.xml)
   - [`낙생습지.xml`](https://github.com/Esantomi/digital-humanities/tree/main/전자문서와하이퍼텍스트/성남문화대전/낙생습지.xml)
   - [`manipulateXml.sql`](https://github.com/Esantomi/digital-humanities/tree/main/전자문서와하이퍼텍스트/성남문화대전/manipulateXml.sql)
   - [`uploadXml.sql`](https://github.com/Esantomi/digital-humanities/tree/main/전자문서와하이퍼텍스트/성남문화대전/uploadXml.sql)
+  - [`uploadManipulateXml.sql`](https://github.com/Esantomi/digital-humanities/tree/main/전자문서와하이퍼텍스트/성남문화대전/uploadManipulateXml.sql)
 - [`Xpath.sql`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/Xpath.sql)
 - [`XMLdb_practice1.sql`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/XMLdb_practice1.sql)
 ### 인문정보편찬연구II
