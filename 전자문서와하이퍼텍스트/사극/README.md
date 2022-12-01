@@ -1,2 +1,2 @@
-### 공주의_남자.xml (사극2.xsl 적용) 미리 보기
-![image](https://user-images.githubusercontent.com/61646760/204941651-0a85335b-53d4-411e-b715-0b71de80a5b3.png)
+### 2022-201사극콘텐츠_7개_취합.xml (사극3.xsl 적용) 미리 보기
+![image](https://user-images.githubusercontent.com/61646760/204952426-63630e6a-f4a1-459b-9c74-ed2f0d6620b1.png)
