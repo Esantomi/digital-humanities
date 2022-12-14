@@ -46,6 +46,17 @@
   - [`이력서.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/resume/이력서.xml)
 - service-contract-sample
   - [`(sample)계약서.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/service-contract-sample/(sample)계약서.xml)
+- 사극
+  - sql
+    - [`uploadHistoryContents.sql`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/사극/sql/uploadHistoryContents.sql)
+    - [`upload사극xml.sql`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/사극/sql/upload사극xml.sql)
+    - [`사극1.sql`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/사극/sql/사극1.sql)
+    - [`사극2.sql`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/사극/sql/사극2.sql)
+    - [`사극3.sql`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/사극/sql/사극3.sql)
+  - xsl
+    - [`사극.xsl`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/사극/xsl/사극.xsl)
+    - [`사극2.xsl`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/사극/xsl/사극2.xsl)
+    - [`사극3.xsl`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/사극/xsl/사극3.xsl)
 - 성남문화대전
   - [`성남문화대전.xml`](https://github.com/Esantomi/digital-humanities/tree/main/전자문서와하이퍼텍스트/성남문화대전/성남문화대전.xml)
   - [`성남문화대전2.xml`](https://github.com/Esantomi/digital-humanities/tree/main/전자문서와하이퍼텍스트/성남문화대전/성남문화대전2.xml)
