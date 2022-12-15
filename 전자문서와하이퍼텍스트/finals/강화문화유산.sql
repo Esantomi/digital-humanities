@@ -4,8 +4,8 @@ USE s_haein
 
 /* upload XML file */
 
--- DROP TABLE 강화문화유산_bulk
--- DROP TABLE 강화문화유산_xml
+--DROP TABLE 강화문화유산_bulk
+--DROP TABLE 강화문화유산_xml
 
 CREATE TABLE 강화문화유산_bulk (xmltxt xml)
 
