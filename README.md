@@ -34,6 +34,9 @@
 ### 전자문서와하이퍼텍스트
 - curation
   - [`AppenzellerMuseum.htm`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/curation/AppenzellerMuseum.htm)
+- finals
+  - [`강화문화유산.sql`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/finals/강화문화유산.sql)
+  - [`강화문화유산.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/finals/강화문화유산.xml)
 - house
   - [`house.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/house/house.xml)
   - [`house1.xml`](https://github.com/Esantomi/digital-humanities/blob/main/전자문서와하이퍼텍스트/house/house1.xml)
